@@ -1,0 +1,57 @@
+﻿html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    background-color: #E4D6A7
+}
+body {
+    line-height: 1;
+    font-family: arial;
+}
+
+h1 {
+    font-size: 25px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 20px;
+     
+}
+
+.center{
+  text-align: center;
+}
+
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: #1C110A;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #E4D6A7;
+  border-right-width: thick;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #50A2A7;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #9B2915;
+  color: white;
+}
